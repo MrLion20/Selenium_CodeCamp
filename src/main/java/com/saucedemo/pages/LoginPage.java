@@ -34,7 +34,7 @@ public class LoginPage extends BasePage{
         return new ProductsPage();
     }
 
-    public ProductsPage logInToAplicatio(String username, String password){
+    public ProductsPage logInToAplication(String username, String password){
         setUserName(username);
         setPassword(password);
         return clickLoginButton();
