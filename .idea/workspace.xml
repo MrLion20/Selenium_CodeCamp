@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add Login Error message Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/saucedemo/tests/products/ProductsTest.java" afterDir="false" />
+    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add Products tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/FormsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/tests/javascript/JavaScriptTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/ProductsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731622710028</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Products tests">
+      <option name="closed" value="true" />
+      <created>1731623547052</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731623547052</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,7 +162,8 @@
     <MESSAGE value="Add BaseTest setup and teardown for test environment&#10;- Initialize WebDriver and maximize browser window before tests&#10;- Set base URL and instantiate BasePage and LoginPage&#10;- Configure tearDown method to close browser after tests" />
     <MESSAGE value="Add BaseTest setup and teardown" />
     <MESSAGE value="Add Login Error message Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Login Error message Test" />
+    <MESSAGE value="Add Products tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Products tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
