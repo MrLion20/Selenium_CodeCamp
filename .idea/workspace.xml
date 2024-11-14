@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="14/11/24 - Initial commit for Selenium_CodeCamp">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/BasePage.java" afterDir="false" />
+    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Create the BasePage of project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/swaglab/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +87,22 @@
       <option name="project" value="LOCAL" />
       <updated>1731617335291</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create the BasePage of project">
+      <option name="closed" value="true" />
+      <created>1731618773887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731618773887</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="14/11/24 - Initial commit for Selenium_CodeCamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="14/11/24 - Initial commit for Selenium_CodeCamp" />
+    <MESSAGE value="Create the BasePage of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create the BasePage of project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
