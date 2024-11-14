@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Create the BasePage of project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add LoginPage class with elements and methods for login functionality">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,14 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731618773887</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add LoginPage class with elements and methods for login functionality">
+      <option name="closed" value="true" />
+      <created>1731619956387</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731619956387</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="14/11/24 - Initial commit for Selenium_CodeCamp" />
     <MESSAGE value="Create the BasePage of project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create the BasePage of project" />
+    <MESSAGE value="Add LoginPage class with elements and methods for login functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LoginPage class with elements and methods for login functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

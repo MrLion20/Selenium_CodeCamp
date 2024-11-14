@@ -29,12 +29,18 @@ public class LoginPage extends BasePage{
     /**
      * Método para darle clic al boton de Login
      */
-    public void clicLoginButton(){
+    public ProductsPage clicLoginButton(){
         click(loginButton);
+        return new ProductsPage();
     }
 
+    public ProductsPage logInToAplicatio(String username, String password){
+        setUserName(username);
+        setPassword(password);
+        return clicLoginButton();
+    }
 
-
-
-
+    public String getErrorMessage() {
+        return find(errorMessage).getText();
+    }
 }
