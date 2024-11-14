@@ -8,7 +8,7 @@ public class LoginPage extends BasePage{
     private By usernameField = By.id("user-name");
     private By passwordField = By.id("password");
     private By loginButton = By.id("login_button");
-    private By errorMessage = By.xpath("//*[@id='login_button_container']/h3");
+    private By errorMessage = By.cssSelector("#login_container h3");
 
     /**
      * Método para ingresar texto en el campo de usuario en la pantalla de Login.
