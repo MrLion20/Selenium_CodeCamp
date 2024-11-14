@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add BaseTest setup and teardown for test environment&#10;- Initialize WebDriver and maximize browser window before tests&#10;- Set base URL and instantiate BasePage and LoginPage&#10;- Configure tearDown method to close browser after tests">
+    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add BaseTest setup and teardown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/ProductsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/tests/login/loginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/tests/login/loginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.loginTests.executor": "Run",
+    "TestNG.loginTests.testLoginErrorMessage.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/justin.leon/Documents/Proyects/Selenium_CodeCamp/src/main/java/com/swaglab/Main.java"
@@ -122,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731621092579</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add BaseTest setup and teardown">
+      <option name="closed" value="true" />
+      <created>1731622015454</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731622015454</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,7 +142,8 @@
     <MESSAGE value="Add LoginPage class with elements and methods for login functionality" />
     <MESSAGE value="Add ProductPage class with elements and methods" />
     <MESSAGE value="Add BaseTest setup and teardown for test environment&#10;- Initialize WebDriver and maximize browser window before tests&#10;- Set base URL and instantiate BasePage and LoginPage&#10;- Configure tearDown method to close browser after tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add BaseTest setup and teardown for test environment&#10;- Initialize WebDriver and maximize browser window before tests&#10;- Set base URL and instantiate BasePage and LoginPage&#10;- Configure tearDown method to close browser after tests" />
+    <MESSAGE value="Add BaseTest setup and teardown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BaseTest setup and teardown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

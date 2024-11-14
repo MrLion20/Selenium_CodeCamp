@@ -8,7 +8,4 @@ public class ProductsPage extends BasePage{
     public boolean isProductsHeaderDisplayed(){
         return find(productHeader).isDisplayed();
     }
-
-
-
 }

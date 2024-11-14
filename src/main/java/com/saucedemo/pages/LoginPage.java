@@ -7,8 +7,8 @@ public class LoginPage extends BasePage{
     // Aquí se seleccionan los elementos de la página que se necesitan para el proceso de Login
     private By usernameField = By.id("user-name");
     private By passwordField = By.id("password");
-    private By loginButton = By.id("login_button");
-    private By errorMessage = By.cssSelector("#login_container h3");
+    private By loginButton = By.name("login-button");
+    private By errorMessage = By.cssSelector("#login_button_container h3");
 
     /**
      * Método para ingresar texto en el campo de usuario en la pantalla de Login.
@@ -29,7 +29,7 @@ public class LoginPage extends BasePage{
     /**
      * Método para darle clic al boton de Login
      */
-    public ProductsPage clicLoginButton(){
+    public ProductsPage clickLoginButton(){
         click(loginButton);
         return new ProductsPage();
     }
@@ -37,7 +37,7 @@ public class LoginPage extends BasePage{
     public ProductsPage logInToAplicatio(String username, String password){
         setUserName(username);
         setPassword(password);
-        return clicLoginButton();
+        return clickLoginButton();
     }
 
     public String getErrorMessage() {
