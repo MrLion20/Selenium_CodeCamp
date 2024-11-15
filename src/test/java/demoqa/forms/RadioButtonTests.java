@@ -5,12 +5,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 // Clase RadioButtonTests
-// Clase de prueba que valida la funcionalidad de los botones de opción (Radio Buttons) en la página de formulario de práctica.
+// Clase de Casos de prueba que valida la funcionalidad de los botones de opción (Radio Buttons) en la página de formulario de práctica.
 // Extiende de BaseTest para aprovechar las configuraciones de prueba base, como inicialización del navegador y configuración del entorno.
 
 public class RadioButtonTests extends BaseTest {
     /**
-     * Prueba que verifica la selección del botón de opción 'Female' en el formulario de práctica.
+     * TC001 - Verifica la selección del botón de opción 'Female' en el formulario de práctica.
      * Pasos de la prueba:
      * 1. Navega a la página de Formularios desde la página principal.
      * 2. Accede al formulario de práctica.
@@ -31,7 +31,7 @@ public class RadioButtonTests extends BaseTest {
         Assert.assertTrue(isFemaleRadioButtonSelected," Female RadioButton is Selected");
     }
     /**
-     * Prueba que verifica la selección del botón de opción 'Male' en el formulario de práctica.
+     * TC002 - Verifica la selección del botón de opción 'Male' en el formulario de práctica.
      * Pasos de la prueba:
      * 1. Navega a la página de Formularios desde la página principal.
      * 2. Accede al formulario de práctica.
@@ -52,7 +52,7 @@ public class RadioButtonTests extends BaseTest {
         Assert.assertTrue(isMaleRadioButtonSelected," Male RadioButton is Selected");
     }
     /**
-     * Prueba que verifica la selección del botón de opción 'Other' en el formulario de práctica.
+     * TC003 - Verifica la selección del botón de opción 'Other' en el formulario de práctica.
      * Pasos de la prueba:
      * 1. Navega a la página de Formularios desde la página principal.
      * 2. Accede al formulario de práctica.

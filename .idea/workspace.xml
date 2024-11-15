@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add RadioButtonTests and some comments in different Java Classes">
+    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add other RadioButtonTests and comments">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/ElementsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/elements/WebTablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/elements/WebTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/forms/CheckboxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/PracticeFormPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/demoqa/forms/RadioButtonTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqa/forms/RadioButtonTests.java" afterDir="false" />
     </list>
@@ -58,9 +63,11 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CheckboxTest.executor": "Run",
     "TestNG.JavaScriptTest.executor": "Run",
     "TestNG.ProductsTest.executor": "Run",
     "TestNG.RadioButtonTests.executor": "Run",
+    "TestNG.WebTableTest.executor": "Run",
     "TestNG.loginTests.executor": "Run",
     "TestNG.loginTests.testLoginErrorMessage.executor": "Run",
     "git-widget-placeholder": "master",
@@ -173,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731693007094</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add other RadioButtonTests and comments">
+      <option name="closed" value="true" />
+      <created>1731694228617</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731694228617</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,7 +204,8 @@
     <MESSAGE value="Add JavaScriptsTests" />
     <MESSAGE value="Add JavaScriptsTests and some comments in different Java Classes" />
     <MESSAGE value="Add RadioButtonTests and some comments in different Java Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add RadioButtonTests and some comments in different Java Classes" />
+    <MESSAGE value="Add other RadioButtonTests and comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add other RadioButtonTests and comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
