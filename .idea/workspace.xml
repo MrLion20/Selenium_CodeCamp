@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add JavaScriptsTests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/JavaScriptUtility.java" afterDir="false" />
+    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add JavaScriptsTests and some comments in different Java Classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/PracticeFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/forms/RadioButtonTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demoqa/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqa/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/FormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/FormsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/JavaScriptUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/JavaScriptUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +60,9 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.JavaScriptTest.executor": "Run",
     "TestNG.ProductsTest.executor": "Run",
+    "TestNG.RadioButtonTests.executor": "Run",
     "TestNG.loginTests.executor": "Run",
     "TestNG.loginTests.testLoginErrorMessage.executor": "Run",
     "git-widget-placeholder": "master",
@@ -164,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731625555588</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add JavaScriptsTests and some comments in different Java Classes">
+      <option name="closed" value="true" />
+      <created>1731688925467</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731688925467</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,7 +181,8 @@
     <MESSAGE value="Add Login Error message Test" />
     <MESSAGE value="Add Products tests" />
     <MESSAGE value="Add JavaScriptsTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JavaScriptsTests" />
+    <MESSAGE value="Add JavaScriptsTests and some comments in different Java Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JavaScriptsTests and some comments in different Java Classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
