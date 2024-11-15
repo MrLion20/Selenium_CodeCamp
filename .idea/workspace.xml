@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add Products tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/FormsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/tests/javascript/JavaScriptTest.java" afterDir="false" />
+    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add JavaScriptsTests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/JavaScriptUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saucedemo/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demoqa/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqa/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/saucedemo/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/saucedemo/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.JavaScriptTest.executor": "Run",
     "TestNG.ProductsTest.executor": "Run",
     "TestNG.loginTests.executor": "Run",
     "TestNG.loginTests.testLoginErrorMessage.executor": "Run",
@@ -150,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731623547052</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add JavaScriptsTests">
+      <option name="closed" value="true" />
+      <created>1731625555588</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731625555588</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,7 +177,8 @@
     <MESSAGE value="Add BaseTest setup and teardown" />
     <MESSAGE value="Add Login Error message Test" />
     <MESSAGE value="Add Products tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Products tests" />
+    <MESSAGE value="Add JavaScriptsTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JavaScriptsTests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

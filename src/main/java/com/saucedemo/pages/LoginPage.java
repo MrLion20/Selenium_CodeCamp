@@ -1,8 +1,9 @@
 package com.saucedemo.pages;
 
+import com.base.BasePage;
 import org.openqa.selenium.By;
 
-public class LoginPage extends BasePage{
+public class LoginPage extends BasePage {
 
     // Aquí se seleccionan los elementos de la página que se necesitan para el proceso de Login
     private By usernameField = By.id("user-name");
