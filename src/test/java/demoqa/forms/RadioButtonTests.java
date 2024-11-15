@@ -9,17 +9,17 @@ import org.testng.annotations.Test;
 // Extiende de BaseTest para aprovechar las configuraciones de prueba base, como inicialización del navegador y configuración del entorno.
 
 public class RadioButtonTests extends BaseTest {
-
     /**
      * Prueba que verifica la selección del botón de opción 'Female' en el formulario de práctica.
      * Pasos de la prueba:
      * 1. Navega a la página de Formularios desde la página principal.
      * 2. Accede al formulario de práctica.
      * 3. Selecciona el botón de opción 'Female'.
+     * 4. Valida que el botón de opción 'Female' este seleccionado.
      * Esta prueba asegura que el botón de opción puede ser interactuado correctamente.
      */
     @Test
-    public void testRadioButton(){
+    public void testFemaleRadioButton(){
         // Navega a la página de Formularios y luego al formulario de práctica.
         var formsPage = homePage.goToForms().clickPracticeForm();
 
@@ -30,4 +30,47 @@ public class RadioButtonTests extends BaseTest {
         boolean isFemaleRadioButtonSelected = formsPage.isFemaleSelected();
         Assert.assertTrue(isFemaleRadioButtonSelected," Female RadioButton is Selected");
     }
+    /**
+     * Prueba que verifica la selección del botón de opción 'Male' en el formulario de práctica.
+     * Pasos de la prueba:
+     * 1. Navega a la página de Formularios desde la página principal.
+     * 2. Accede al formulario de práctica.
+     * 3. Selecciona el botón de opción 'Male'.
+     * 4. Valida que el botón de opción 'Male' este seleccionado.
+     * Esta prueba asegura que el botón de opción puede ser interactuado correctamente.
+     */
+    @Test
+    public void testMaleRadioButton(){
+        // Navega a la página de Formularios y luego al formulario de práctica.
+        var formsPage = homePage.goToForms().clickPracticeForm();
+
+        // Selecciona el botón de opción 'Male'.
+        formsPage.clickMaleRadioButton();
+
+        // Validacion que el botón de opción 'Male' este seleccionado.
+        boolean isMaleRadioButtonSelected = formsPage.isMaleSelected();
+        Assert.assertTrue(isMaleRadioButtonSelected," Male RadioButton is Selected");
+    }
+    /**
+     * Prueba que verifica la selección del botón de opción 'Other' en el formulario de práctica.
+     * Pasos de la prueba:
+     * 1. Navega a la página de Formularios desde la página principal.
+     * 2. Accede al formulario de práctica.
+     * 3. Selecciona el botón de opción 'Other'.
+     * 4. Valida que el botón de opción 'Other' este seleccionado.
+     * Esta prueba asegura que el botón de opción puede ser interactuado correctamente.
+     */
+    @Test
+    public void testOtherRadioButton(){
+        // Navega a la página de Formularios y luego al formulario de práctica.
+        var formsPage = homePage.goToForms().clickPracticeForm();
+
+        // Selecciona el botón de opción 'Male'.
+        formsPage.clickOtherRadioButton();
+
+        // Validacion que el botón de opción 'Male' este seleccionado.
+        boolean isOtherRadioButtonSelected = formsPage.isOtherSelected();
+        Assert.assertTrue(isOtherRadioButtonSelected," Other RadioButton is Selected");
+    }
 }
+

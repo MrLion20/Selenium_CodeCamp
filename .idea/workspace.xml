@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add JavaScriptsTests and some comments in different Java Classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/PracticeFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/forms/RadioButtonTests.java" afterDir="false" />
+    <list default="true" id="976d9896-6c2b-492a-8228-078b3221c53e" name="Changes" comment="Add RadioButtonTests and some comments in different Java Classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/FormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/FormsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/JavaScriptUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/JavaScriptUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/forms/PracticeFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demoqa/forms/RadioButtonTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqa/forms/RadioButtonTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731688925467</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add RadioButtonTests and some comments in different Java Classes">
+      <option name="closed" value="true" />
+      <created>1731693007094</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731693007094</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,7 +188,8 @@
     <MESSAGE value="Add Products tests" />
     <MESSAGE value="Add JavaScriptsTests" />
     <MESSAGE value="Add JavaScriptsTests and some comments in different Java Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JavaScriptsTests and some comments in different Java Classes" />
+    <MESSAGE value="Add RadioButtonTests and some comments in different Java Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add RadioButtonTests and some comments in different Java Classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
