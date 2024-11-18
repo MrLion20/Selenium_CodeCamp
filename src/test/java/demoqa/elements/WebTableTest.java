@@ -1,6 +1,7 @@
 package demoqa.elements;
 
 import demoqa.base.BaseTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 /**
  * Clase de prueba para la funcionalidad de la tabla web.
@@ -19,11 +20,14 @@ public class WebTableTest extends BaseTest {
      */
     @Test
     public void testWebTable(){
+        String email = "alden@example.com";
+        String expectedAge="80";
+
         // Navega a la página de elementos y accede a la página de tabla web.
         var webTablePage = homePage.goToElementsPage().clickWebTables();
 
         // Edita el registro identificado por el email "alden@example.com".
-        webTablePage.clickEdit("alden@example.com");
+        webTablePage.clickEdit(email);
 
         // Cambia la edad a "45".
         webTablePage.setAge("80");
@@ -31,5 +35,8 @@ public class WebTableTest extends BaseTest {
         // Guarda los cambios realizados en el registro.
         webTablePage.clickSubmitButton();
 
+        //Toma el dato de la tabla de edad y la compara con una variable
+        String actualAge = webTablePage.getTableAge(email);
+        Assert.assertEquals(actualAge, expectedAge,"Actual & Expected Ages dont match");
     }
 }

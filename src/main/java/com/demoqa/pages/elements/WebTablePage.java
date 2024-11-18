@@ -43,4 +43,10 @@ public class WebTablePage extends ElementsPage {
         click(submitButtom);
     }
 
+    public String getTableAge(String email){
+        By tableAge = By.xpath("//div[text()='"+ email +"']//preceding::div[1]");
+        return find(tableAge).getText();
+    }
+
+
 }
