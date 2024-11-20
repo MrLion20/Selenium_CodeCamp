@@ -3,6 +3,7 @@ package com.demoqa.pages;
 import com.demoqa.pages.elements.ElementsPage;
 import com.demoqa.pages.forms.FormsPage;
 import com.base.BasePage;
+import com.demoqa.pages.widgets.WidgetsPage;
 import org.openqa.selenium.By;
 
 // Clase HomePage
@@ -17,6 +18,8 @@ public class HomePage extends BasePage {
     private By formsCard = By.xpath("//div[@id='app']//h5[text()='Forms']");
     // Localizador para identificar la tarjeta 'Elements' en la página principal.
     private By elementsCard = By.xpath("//div[@id='app']//h5[text()='Elements']");
+    // Localizador para identificar la tarjeta '' en la página principal.
+    private By widgetsCard = By.xpath("//div[@id='app']//h5[text()='Widgets']");
 
     /**
      * Método para navegar a la sección de Formularios (Forms) desde la página principal.
@@ -41,7 +44,12 @@ public class HomePage extends BasePage {
     public ElementsPage goToElementsPage(){
         scrollToElementJS(elementsCard);
         click(elementsCard);
-
         return new ElementsPage();
+    }
+
+    public WidgetsPage goToWidgets(){
+        scrollToElementJS(widgetsCard);
+        click(widgetsCard);
+        return new WidgetsPage();
     }
 }
